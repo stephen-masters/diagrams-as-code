@@ -22,10 +22,12 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
+      - uses: actions/setup-node@v2.1.5
       - uses: ts-graphviz/setup-graphviz@v1
 
-      - name: Bundle
+      - name: Install tools
         run: |
+          npm install -g bpmn-js-cmd
           gem install bundler
           bundle
 
