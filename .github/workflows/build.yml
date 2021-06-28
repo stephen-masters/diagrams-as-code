@@ -22,12 +22,15 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-      - uses: actions/setup-node@v2.1.5
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
       - uses: ts-graphviz/setup-graphviz@v1
 
       - name: Install tools
         run: |
           npm install bpmn-js-cmd
+          export PATH=./node_modules/.bin:$PATH
           gem install bundler
           bundle
 
