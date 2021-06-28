@@ -30,12 +30,13 @@ jobs:
       - name: Install tools
         run: |
           npm install bpmn-js-cmd
-          export PATH=./node_modules/.bin:$PATH
           gem install bundler
           bundle
 
       - name: Build
         run: |
+          export PATH=./node_modules/.bin:$PATH
+          echo $PATH
           asciidoctor -r asciidoctor-diagram \
           -r asciidoctor-pdf \
           -a pdf-themesdir=resources/themes \
