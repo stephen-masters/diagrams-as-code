@@ -22,14 +22,21 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-      - name: ls
-        run: ls
+      - uses: ts-graphviz/setup-graphviz@v1
+
       - name: Bundle
         run: |
           gem install bundler
           bundle
+
       - name: Build
-        run: ./build-pdf.sh
+        run: |
+          asciidoctor -r asciidoctor-diagram \
+          -r asciidoctor-pdf \
+          -a pdf-themesdir=resources/themes \
+          -a pdf-theme=example \
+          -b pdf \
+          ./example-doc/index.adoc
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
