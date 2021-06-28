@@ -21,6 +21,8 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
+      - name: ls
+        run: pwd && ls
       - name: Bundle
         run: bundle
       - name: Build
