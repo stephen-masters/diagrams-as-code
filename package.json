@@ -1,0 +1,11 @@
+{
+    "name": "diagrams-as-code",
+    "version": "0.1.0",
+    "description": "Examples of using documentation as code with diagrams",
+    "repository": "github:gratiartis/diagrams-as-code",
+    "author": "Stephen Masters <stephen.masters@me.com>",
+    "license": "MIT",
+    "dependencies": {
+        "bpmn-js-cmd": "^0.4.0"
+    }
+}

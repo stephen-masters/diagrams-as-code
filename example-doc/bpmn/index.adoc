@@ -6,9 +6,9 @@ You can use https://demo.bpmn.io/[BPMN.io] as an easy way to edit files, or a mo
 
 The Asciidoctor diagram functionality makes use of https://github.com/gtudan/bpmn-js-cmd[bpmn-js-cmd] to draw BPMN diagrams.
 
-BPMN is a relatively verbose format, therefore the XML is not shown here. Take a look at `example.bpmn` to see the XML used for the diagram below.
+BPMN is a relatively verbose format, therefore the XML is not shown here. Take a look at `example.bpmn` to see the XML used for the diagram below. Note that the following generates an SVG file. If you use any other of the available formats, your diagram will have a "BPMN.io" graphic added to it, and may be taller than necessary.
 
-[bpmn, example-bpmn]
+[bpmn, example-bpmn, svg]
 ....
-include::example.bpmn[]
+include::example.bpmn[svg]
 ....

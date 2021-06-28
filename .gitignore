@@ -3,3 +3,6 @@
 example-doc/index.pdf
 example-doc/index.html
 example-doc/*.png
+example-doc/*.svg
+
+node_modules
