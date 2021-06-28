@@ -29,7 +29,7 @@ jobs:
 
       - name: Install tools
         run: |
-          npm install bpmn-js-cmd
+          npm install
           gem install bundler
           bundle
 
