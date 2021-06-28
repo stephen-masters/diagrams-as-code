@@ -22,7 +22,7 @@ jobs:
         with:
           ruby-version: 2.7
       - name: ls
-        run: pwd && ls
+        run: ls
       - name: Bundle
         run: bundle
       - name: Build
