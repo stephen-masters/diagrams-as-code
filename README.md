@@ -3,7 +3,7 @@ Examples of embedding various diagrams into an Asciidoctor document.
 
 ### Asciidoctor
 
-This project makes use of Asciidoctor to generate rich documentation. This is a https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[simple markdown syntax], which is particularly good for generating richhly formatted HTML and PDF output.
+This project makes use of Asciidoctor to generate rich documentation. https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Asciidoctor markdown syntax] is particularly good for generating nicely formatted HTML and PDF output.
 
 If you install Ruby, a Gemfile is provided here, which installs both Asciidoctor and Aciidoctor Diagram, in which case you can run.
 

@@ -1,0 +1,16 @@
+== C4 with C4-PlantUML
+
+The https://c4model.com[C4 model] provides an efficient and effective way to communicate about a systems architecture at different levels of detail.
+
+Here is a diagram using https://github.com/plantuml-stdlib/C4-PlantUML/[C4-PlantUML] to generate a C4 diagram. The following PUML:
+
+----
+include::c4-context.puml[]
+----
+
+Produces this diagram:
+
+[plantuml, c4-context, png]
+----
+include::c4-context.puml[]
+----

@@ -1,10 +1,8 @@
-= Document containing diagram examples
+= Asciidoc diagram examples
+:doctype: book
+:source-highlighter: highlightjs
+:toc:
 
-== C4-PlantUML
+include::c4-plantuml/index.adoc[]
 
-Here is a diagram using https://github.com/plantuml-stdlib/C4-PlantUML/[C4-PlantUML] to generate a C4 diagram.
-
-[plantuml, c4-context, png]
-----
-include::c4-context.puml[]
-----
+include::bpmn/index.adoc[]

@@ -5,11 +5,8 @@ Person(user, "A user")
 
 System(a, "System A")
 System(b, "System B")
-System(c, "system C")
 
 Rel(user, a, "Uses")
-Rel(a, b, "Sends something to", "HTTPS")
-Rel(b, c, "Sends something to", "HTTPS")
-Rel(c, a, "Sends something to", "HTTPS")
-
+Rel(a, b, "Sends request to", "HTTPS")
+Rel(b, a, "Sends response to", "HTTPS")
 @enduml

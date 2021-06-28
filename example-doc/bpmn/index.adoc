@@ -1,0 +1,14 @@
+== BPMN
+
+https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation[Business Process Model and Notation (BPMN)] is a standard for defining business processes in an XML format which can be used to draw diagrams, and also to drive process automation software such as https://www.jbpm.org/[jBPM] or https://camunda.com/[Camunda].
+
+You can use https://demo.bpmn.io/[BPMN.io] as an easy way to edit files, or a more complex tool such as jBPM, Camunda, or the https://www.eclipse.org/bpmn2-modeler/[Eclipse BPMN2 Modeler].
+
+The Asciidoctor diagram functionality makes use of https://github.com/gtudan/bpmn-js-cmd[bpmn-js-cmd] to draw BPMN diagrams.
+
+BPMN is a relatively verbose format, therefore the XML is not shown here. Take a look at `example.bpmn` to see the XML used for the diagram below.
+
+[bpmn, example-bpmn]
+....
+include::example.bpmn[]
+....
