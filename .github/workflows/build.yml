@@ -25,7 +25,9 @@ jobs:
       - name: ls
         run: ls
       - name: Bundle
-        run: bundle
+        run: |
+          gem install bundler
+          bundle
       - name: Build
         run: ./build-pdf.sh
 
