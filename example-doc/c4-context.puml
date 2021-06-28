@@ -1,0 +1,15 @@
+@startuml Basic Sample
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(user, "A user")
+
+System(a, "System A")
+System(b, "System B")
+System(c, "system C")
+
+Rel(user, a, "Uses")
+Rel(a, b, "Sends something to", "HTTPS")
+Rel(b, c, "Sends something to", "HTTPS")
+Rel(c, a, "Sends something to", "HTTPS")
+
+@enduml

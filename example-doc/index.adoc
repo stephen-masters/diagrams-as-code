@@ -1,0 +1,10 @@
+= Document containing diagram examples
+
+== C4-PlantUML
+
+Here is a diagram using https://github.com/plantuml-stdlib/C4-PlantUML/[C4-PlantUML] to generate a C4 diagram.
+
+[plantuml, c4-context, png]
+----
+include::c4-context.puml[]
+----
