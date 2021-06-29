@@ -31,6 +31,12 @@ npm install
 bundle
 ```
 
+To create a bin stub (a shortcut to bypass using `bundle exec`) for asciidoctor, you may also need to run:
+
+```
+bundle binstubs asciidoctor
+```
+
 
 ### Build
 
