@@ -5,8 +5,15 @@
     "repository": "github:gratiartis/diagrams-as-code",
     "author": "Stephen Masters <stephen.masters@me.com>",
     "license": "MIT",
+    "scripts": {
+        "build-html": "./scripts/build-html.sh",
+        "build-pdf": "./scripts/build-pdf.sh"
+    },
     "dependencies": {
         "bpmn-js": "^8.7.1",
-        "bpmn-js-cmd": "^0.4.0"
+        "bpmn-js-cmd": "^0.4.0",
+        "chromium": "^3.0.2",
+        "puppeteer": "^10.1.0",
+        "puppeteer-core": "^10.1.0"
     }
 }
