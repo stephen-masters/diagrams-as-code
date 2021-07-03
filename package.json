@@ -6,6 +6,7 @@
     "author": "Stephen Masters <stephen.masters@me.com>",
     "license": "MIT",
     "dependencies": {
+        "bpmn-js": "^8.7.1",
         "bpmn-js-cmd": "^0.4.0"
     }
 }
