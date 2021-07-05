@@ -53,7 +53,7 @@ To see examples of building this, the GitHub repository has [Actions](https://gi
 If you have Docker Compose installed, and don't want to mess around with installing anything yourself, the following is a quick and easy way to build this PDF.
 
 ```
-docker-compose run --rm docbuilder ./build-pdf.sh
+docker-compose run --rm docbuilder ./scripts/build-pdf.sh
 ```
 
 Take a look in `Dockerfile` to see the tools which are installed. It's based on the official [asciidoctor/docker-asciidoctor](https://hub.docker.com/r/asciidoctor/docker-asciidoctor) image, which already includes tools such as Asciidoctor PDF and Asciidoctor Diagram.

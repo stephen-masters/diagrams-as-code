@@ -23,4 +23,4 @@ RUN addgroup -S docgroup && adduser -S docuser -G docgroup \
 USER docuser
 
 ENV PATH=/documents/node_modules/.bin:$PATH
-RUN npm install
+RUN npm ci
